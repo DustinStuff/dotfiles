@@ -1,0 +1,10 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+
+[username]
+style_user = 'white bold'
+style_root = 'red bold'
+format = '[$user ]($style)'
+disabled = false
+show_always = true
